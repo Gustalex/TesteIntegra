@@ -62,7 +62,7 @@ Este projeto é uma excelente oportunidade para aprender e praticar conceitos im
 
 Certifique-se de ter os seguintes softwares instalados em sua máquina:
 - [Node.js](https://nodejs.org/)
-- [Python](https://www.python.org/) (versão 3.6+)
+- [Python](https://www.python.org/) 
 - [pip](https://pip.pypa.io/en/stable/installation/) (gerenciador de pacotes Python)
 
 ### Passo 1: Clonar o Repositório

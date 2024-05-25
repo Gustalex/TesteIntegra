@@ -12,7 +12,7 @@ def send_mail(request):
 
     if subject and message and from_email and to_email:
         try:
-            django_send_mail(subject, message, from_email, [to_email])
+            django_send_mail(subject, '', from_email, [to_email], html_message=message)
         except BadHeaderError:
             return HttpResponse("Invalid header found.")
         return HttpResponse("Mail sent successfully")

@@ -11,11 +11,13 @@ app.get('/', (req, res) => {
 
 app.post('/sendmail', async(req, res) => {
     try{
-        const response = await axios.post('http://127.0.0.1:8000/email/',({
+        const data = {
             subject: 'Confirmação de Reserva CIPT',
-            message: 'Olá, sua reserva foi confirmada com sucesso!',
+            message: textBody,
             to_email:'alexandregustavo00@gmail.com',
-        }),{
+        };
+
+        const response = await axios.post('http://127.0.0.1:8000/email/', qs.stringify(data), {
             headers:{
                 'Content-Type': 'application/x-www-form-urlencoded',
             }

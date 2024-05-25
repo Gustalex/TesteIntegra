@@ -78,7 +78,7 @@ const emailBody = `
 <body>
     <div class="container">
         <img src="https://i.postimg.cc/y6SxCFFC/cipt.png" alt="Centro de Inovação Jaraguá">
-        <h1>SUA RESERVA FOI CONFIRMADA! CONFIRA AS REGRAS DE UTILIZAÇÃO:</h1>
+        <h1>SUA RESERVA FOI CONFIRMADA!</h1>
         <h2>Regras de Uso das Salas de Estudo</h2>
         <ul>
             <li>➔ As chaves das salas de estudo só podem ser entregues mediante <span class="highlight">reserva prévia</span> e com a presença de no mínimo <span class="highlight">3 pessoas</span> e no máximo <span class="highlight">5 pessoas</span>.</li>

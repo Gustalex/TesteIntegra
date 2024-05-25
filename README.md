@@ -67,11 +67,7 @@ Certifique-se de ter os seguintes softwares instalados em sua máquina:
 
 ### Passo 1: Clonar o Repositório
 
-Clone o repositório do projeto para o seu ambiente local:
-```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
-```
+Clone o repositório do projeto para o seu ambiente local
 
 ### Passo 2: Configuração do Ambiente Django
 

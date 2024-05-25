@@ -102,7 +102,6 @@ cd nome-do-projeto
 
 1. **Instalar Dependências Node.js**
    ```bash
-   cd caminho-para-o-diretorio-nodejs
    npm install
    ```
 
@@ -110,13 +109,11 @@ cd nome-do-projeto
 
 1. **Iniciar o Servidor Django**
    ```bash
-   cd caminho-para-o-diretorio-django
    python manage.py runserver
    ```
 
 2. **Iniciar o Servidor Node.js**
    ```bash
-   cd caminho-para-o-diretorio-nodejs
    npm run dev
    ```
 
